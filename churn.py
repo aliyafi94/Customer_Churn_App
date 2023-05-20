@@ -68,4 +68,4 @@ if pred_process:
     photo, information = st.columns(2)
        
     with information:
-        st.write("Churn Pred. : ", str(round(prob[:,1][0], 2))).style.format('{:.2%}')
+        st.write("Churn Pred. : ", str(round(prob[:,1][0], 2)))
